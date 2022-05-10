@@ -22,15 +22,23 @@
             .list {
                 color:rgb(219, 109, 219);
                 background-color:rgb(107, 66, 107);
+                width:30%;
+                overflow:auto;
             }
             .safety{
                 background-color:orange;
+                width:50%;
+                overflow:auto
+            }
+            .jumps {
+                width:10%;
+                overflow:auto;
             }
         </style>
     </head>
     <body>
         <h1>Travel to Jupiter!</h1>
-        <p> contents: <a href="#infojump">Info</a><br>      <a href="#top5jump">Top 5 things to see</a><br>      <a href="#safetyjump">safety</a><br></p>
+        <p class="jumps> contents: <a href="#infojump">Info</a><br>      <a href="#top5jump">Top 5 things to see</a><br>      <a href="#safetyjump">safety</a><br></p>
         <h3 id="infojump">Info:</h3>
         <p class="bodytext">
         The exotic locale of <strong>Jupiter</strong> is known for its uninhabitable landscape, ground made of gas, and total lack of flora and fauna!
@@ -39,8 +47,8 @@
         <p class="bodytext">This is <strong id="boldly">not</strong> Jupiter! frankly, <em id="italy">I don't know</em> what planet this is, and I'm too scared to ask.
         </p>
         <div class="list">
-        <h2 class="list" id="top5jump">Top 5 things to see on jupiter:</h2>
-        <ol class="list">
+        <h2 id="top5jump">Top 5 things to see on jupiter:</h2>
+        <ol>
             <li>Gas</li>
             <li>More gas</li>
             <li>Is that some gas?</li>
@@ -50,13 +58,13 @@
         </div>
         <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/rocketship.png" width = "100">
         <div class="safety">
-        <h2 class="safety">Safety Brief Time!</h2>
+        <h2>Safety Brief Time!</h2>
         <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/ShadowWest.png" width="520" height="100" >
-        <p class="safety">
+        <p>
         Remember, to ensure the safety of yourself and others, <strong>DO NOT</strong> go to Jupiter. Just don't!<br>It's that easy.<br> to prove our point, here's 5 ways to die on jupiter.
         </p>
-        <h3 class="safety" id="safetyjump">5 ways to die on jupiter!</h3>
-        <ul class="safety">
+        <h3 id="safetyjump">5 ways to die on jupiter!</h3>
+        <ul>
             <li>Heat</li>
             <li>Gas</li>
             <li>Massive storms</li>
@@ -64,6 +72,6 @@
             <li>Meteors</li>
         </ul>
         </div>
-        <p><a href="#infojump">Info</a><br><a href="#top5jump">Top 5 things to see</a><br><a href="#safetyjump">safety</a><br></p>
+        <p class="jumps"><a href="#infojump">Info</a><br><a href="#top5jump">Top 5 things to see</a><br><a href="#safetyjump">safety</a><br></p>
     </body>
 </html>
