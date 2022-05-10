@@ -2,56 +2,75 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Travel webpage</title>
+        <title>Jupiter, B****</title>
         <style>
             body {
             font-family:"comic sans ms", sans-serif;
             }
+            .jumps {
+                float:right;
+                background-color:rgb(177, 183, 183);
+                padding:5px;
+            }
+            .DONOT {
+                font-weight: bolder;
+            }
             h1 {
                 color:rgb(134, 110, 255);
+               
             }
             .bodytext {
                 color:red;
             }
-            #italy {
+            .boldly {
                 color:green;
+                font-weight:900;
             }
-            #boldly {
+            .italy {
                 color:green;
+                font-style:italic;
             }
             .list {
                 color:rgb(219, 109, 219);
                 background-color:rgb(107, 66, 107);
-                width:30%;
+                width:27.5%;
                 overflow:auto;
+                position:absolute;
+                left:225px;
+                top:275px;
+                padding-left:10px;
+            }
+            .unlink {
+                color:black;
+                text-decoration: none;
             }
             .safety{
                 background-color:orange;
                 width:50%;
-                overflow:auto
-            }
-            .jumps {
-                width:10%;
                 overflow:auto;
             }
-            #infojump {
-            margin-top:0px;
-            margin-bottom:0px;
+            #safetyjump{
+                padding-left: 10px;
+            }
+            .pads {
+                padding-left:10px;
+            }
+            .top5text {
+            padding-left: 10px;    
             }
         </style>
     </head>
     <body>
         <h1>Travel to Jupiter!</h1>
-        <p class="jumps> contents: <a href="#infojump">Info</a><br>      <a href="#top5jump">Top 5 things to see</a><br>      <a href="#safetyjump">safety</a><br></p>
         <h3 id="infojump">Info:</h3>
         <p class="bodytext">
         The exotic locale of <strong>Jupiter</strong> is known for its uninhabitable landscape, ground made of gas, and total lack of flora and fauna!
         </p>
         <a href="https://eksity.github.io" target="_blank"><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/planet.png"></a>
-        <p class="bodytext">This is <strong id="boldly">not</strong> Jupiter! frankly, <em id="italy">I don't know</em> what planet this is, and I'm too scared to ask.
+        <p class="bodytext">This is <span class="boldly">not</span> Jupiter! frankly, <span class="italy">I don't know</span> what planet this is, and I'm too scared to ask.
         </p>
         <div class="list">
-        <h2 id="top5jump">Top 5 things to see on jupiter:</h2>
+        <h2 id="top5jump" class="top5text">Top 5 things to see on jupiter:</h2>
         <ol>
             <li>Gas</li>
             <li>More gas</li>
@@ -60,20 +79,19 @@
             <li>The ancient city of Taz-noragoth</li>
         </ol>
         </div>
-        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/rocketship.png" width = "100">
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/rocketship.png" width = "100" id="rocketship">
         <div class="safety">
-        <h2>Safety Brief Time!</h2>
+        <h2 class="pads">Safety Brief Time!</h2>
         <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/ShadowWest.png" width="520" height="100" >
-        <p>
-        Remember, to ensure the safety of yourself and others, <strong>DO NOT</strong> go to Jupiter. Just don't!<br>It's that easy.<br> to prove our point, here's 5 ways to die on jupiter.
+        <p class="pads">Remember, to ensure the safety of yourself and others, <span class="DONOT">DO NOT</span> go to Jupiter. Just don't!<br>It's that easy.<br> to prove our point, here's 5 ways to die on jupiter.
         </p>
-        <h3 id="safetyjump">5 ways to die on jupiter!</h3>
+        <h3 id="safetyjump" class="pads">5 ways to die on Jupiter!</h3>
         <ul>
-            <li>Heat</li>
-            <li>Gas</li>
-            <li>Massive storms</li>
-            <li>The Bones</li>
-            <li>Meteors</li>
+            <li><a href="https://eksity.github.io" target="_blank" class="unlink">Heat</a></li>
+            <li><a href="https://eksity.github.io" target="_blank" class="unlink">Gas</a></li>
+            <li><a href="https://eksity.github.io" target="_blank" class="unlink">Massive storms</a></li>
+            <li><a href="https://eksity.github.io" target="_blank" class="unlink">The Bones</a></li>
+            <li><a href="https://eksity.github.io" target="_blank" class="unlink">Meteors</a></li>
         </ul>
         </div>
         <p class="jumps"><a href="#infojump">Info</a><br><a href="#top5jump">Top 5 things to see</a><br><a href="#safetyjump">safety</a><br></p>
